@@ -38,7 +38,7 @@ baris           = 1
 
 # Looping for each dataset
 for i in jenis:
-    for j in range(1,26):        
+    for j in range(1, jum_per_data):        
         kolom     = 0
         file_name = "dataset/" + i + " ("+str(j)+ ")" + ".bmp"
         print(file_name)
